@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tech Girl Space</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family= Roboto & display = swap" rel="stylesheet">
+</head>
+<body class="h-screen">
+    <header class="bg-white">
+        <nav class="flex justify-between items-center w-[92%] mx-auto">
+            <div>
+                <img class="w-16 cursor-pointer" src="../public/img/logoTransp.png" alt="logo">
+            </div>
+            <div class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5">
+
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                    <li>
+                        <a class="hover:text-gray-500" href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="#">Quem Somos nós?</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="#">Oportunidades</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="#">Motivação</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-6">
+                <button class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Inscreva-se</button>
+                <ion-icon onclick="onToggleMenu(this)" name="menu-outline" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div id="secao-blog">
+            <section id="banner" class="bg-red-600 py-0 px-0">
+                <div class="flex h-[26rem] bg-desafios bg-cover bg-center justify-center">
+                    <!--<img class="w-full" src="../public/img/image1.png" alt="Imagem Desafios da mulher em Tec"/> 
+                    
+                    <div class="py-32 ">
+                        <h2 class="text-2xl md:text-4xl text-white font-semibold">
+                            Desafios das mulheres da Tecnologia
+                        </h2>
+                    </div>
+                -->
+                </div>
+            </section>
+            <section class="px-5 py-10 md:py-10"> 
+                <div class="max-w-screen-xl mx-auto">
+                    <div class="flex items-center">
+                        <div class="rounded-full">
+                            <img src="/public/img/icons/natomuya.png" alt="" class="max-h-[3rem] max-w-[3rem] h-[3rem] rounded-full">
+                        </div>
+                        <div class="self-right rounded-full">
+                            <img src="/public/img/icons/beatriz.jpg" alt="" class="max-h-[3rem] max-w-[3rem] h-[3rem] rounded-full">
+                        </div>
+                        <div class="flex-col">
+                            <div class="px-3 text-2xl text-gray-900">
+                                Iasmim & Beatriz
+                            </div>
+                            <div class="px-3 text-sm text-gray-500">
+                                Fev 02, 2023 · 5 min de leitura
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="py-4">
+                    
+                        <h2 class="text-2xl md:text-4xl text-gray-900 font-semibold">
+                            Desafio das mulheres dentro da Tecnologia
+                        </h2>
+                        <p class="text-sm md:text-lg text-gray-600 py-3">
+                            Desde tempos imemoriais, as mulheres revelam seu papel fundamental para a 
+                            evolução da humanidade em diversas áreas, incluindo o desenvolvimento da 
+                            tecnologia como conhecemos. De saberes ancestrais a grandes descobertas e 
+                            execuções no campo da engenharia, ciência, matemática e computação, as 
+                            mulheres sempre exerceram um papel extremamente importante no desenvolvimento 
+                            de ferramentas, cálculos e processos imprescindíveis para muitas áreas da 
+                            nossa vida e que nos impactam positivamente até hoje. 
+
+                        </p>
+                        <p class="text-sm md:text-lg text-gray-600 py-3">
+                            Apesar deste ecossistema ser composto – maioritariamente – por homens, é 
+                            fato que as mulheres construíram a base da tecnologia, da computação e da 
+                            internet. Entretanto, elas foram completamente apagadas da história, sem 
+                            nunca terem recebido os devidos créditos perante tanta evolução e 
+                            desenvolvimento que proporcionaram ao mundo.  
+                        </p>
+                        <h2 class="text-2xl md:text-4xl text-gray-900 font-semibold pt-3">
+                            Dados Atualmente
+                        </h2>
+                        <p class="text-sm md:text-lg text-gray-600 py-3">
+                            Atualmente as mulheres representam 40% dos colaboradores da BHS e entre 20% e 31% são profissionais que atuam
+                            diretamente na área da TI. Entre os cargos de liderança e gestão, elas já ocupam 30% dentro da empresa
+                            em 2004, passou para 47%. Na UFSCar, as mulheres representam 39,3% dos docentes, ocupam 1/3 dos postos de
+                            comando e entre os discentes superam 55% dos estudantes.
+                        </p>
+                        <p class="text-sm md:text-lg text-gray-600 py-3">
+                            A área de TI é de grande destaque no mercado de trabalho, além de ser muito bem remunerado. Todas as empresas
+                            necessitam de programadores, pois são essenciais para o crescimento econômico. O setor de TI cresce cada vez
+                            mais com o passar dos anos e também permite colocar suas ideias em prática mesmo que irrealista.
+                            Entretanto as mulheres ocupam uma pequena porcentagem de cargos executivos em empresas da área da tecnologia,
+                            mas elas tiveram marcos importantes na história. Vamos voltar um pouco no tempo.
+                        </p>
+                        <h2 class="text-2xl md:text-4xl text-gray-900 font-semibold">
+                            História da mulher na sociedade
+                        </h2>
+                        <p class="text-sm md:text-lg text-gray-600 py-3">
+                            A mulher sempre foi vista como inferior, além de não terem direitos. Eram excluidas de todas as áreas
+                            e não tinham poder de escolha, tudo que faziam era por controle dos homens, seja o pai, marido ou 
+                            parente masculino. Em algumas sociedades, as mulheres eram obrigadas a se casar contra sua vontade, eram
+                            frequentemente oprimidas e submetidas a humilhações. A situação variava entre diferentes
+                            culturas e épocas.
+                        </p>
+                        <p class="text-sm md:text-lg text-gray-600 py-3">
+                            A violência à mulher na sociedade era tolerada e até mesmo era encorajada pela cultura e pelas leis.
+                            Elas não podiam sair sozinhas e nem participar de atividades públicas. Se fossem pegas traindo seus maridos
+                            eram submetidas a morte ou punidas severamente, enquanto que a traição por parte dos homens era normalizada.
+                            Entretanto com o tempo esse cenário mudou. As mulheres começaram a lutar pelos seus direitos e quebrar barreiras, com isso
+                            conquistaram o direito de frequentar a escola em 1827, acesso a faculdade em 1879 e ao voto em 1932, entre
+                            muitas outras conquistas que devem servir de inspiração para outras mulheres.
+                        </p> 
+                        <p class="text-sm md:text-lg text-gray-600 py-3">   
+                            Como vimos um dos principais fatores do porquê existem poucas mulheres na tecnologia é a questão cultural. 
+                            Muitas pessoas ainda acham que tecnologia não é para mulheres, e quando conseguem trabalhar na área são 
+                            bastante descredibilizadas, isso por conta de um mito perpedurado ao longo dos séculos em relação a capacidade
+                            das mulheres.
+                          
+                            <!--Com o avanço da ciência o mito de que 
+                            o cérebro do homem tem uma capacidade de raciocinio lógico maior que o da mulher foi desmistificado.-->   
+                        </p>
+                        <h2 class="text-2xl md:text-4xl text-gray-900 font-semibold">
+                            Cérebro masculino VS Cérebro feminino
+                        </h2>
+                        <p class="text-sm md:text-lg text-gray-600 py-3">
+                            Antigamente um argumento muito usado para justificar a inferioridade da mulher era de que o seu cérebro 
+                            é consideravelmente menor do que o do homem. Existe uma estrutura de fibras nervosas que conecta os 
+                            hemisférios esquerdo e direito do cérebro e estudos mostram que essa estrutura é maior no cérebro das mulheres,
+                            com isso se deu a ideia de que as mulheres são menos lógicas, uma vez que os sentimentos do hemisfério
+                            direito (onde se domina o emocional) estava interferindo no processamento das informações no hemisfério esquerdo (que comanda
+                            a racionalidade). Esses argumentos são enviesados, já que podem ser facilmente desmistificados, como por exemplo sobre o cérebro dar mulher ser menor.
+                            Há animais como elefantes, que tem um cérebro maior e mais pesado que o do humano e nem por isso é mais racional.
+                        </p>
+                        <div class="py-3 grid grid-cols-3 grid-rows-1  justify-start">
+                            <div>
+                                <img class="px-8 h-72" src="../public/img/livro.png" alt=""/>
+
+                            </div>
+                            <div class="col-start-2 col-end-4">
+                                <p class="text-sm md:text-lg text-gray-600">
+                                "The Gendered Brain" é um livro escrito pela neurocientista Gina Rippon, no qual ela argumenta que a ciência
+                                não apóia a noção de que existem diferenças biológicas fundamentais entre os cérebros masculinos e femininos.
+                                Em vez disso, ela argumenta que as diferenças encontradas entre os cérebros masculinos e femininos são
+                                resultado de fatores sociais e culturais, e não biológicos. O livro questiona a noção de que existem
+                                "cérebros masculinos" e "cérebros femininos" e afirma que as diferenças de gênero são construídas socialmente 
+                                e não são determinadas biológicamente. Rippon também aborda como essa noção de diferenças biológicas entre os
+                                cérebros masculinos e femininos pode ter implicações negativas para a sociedade, como estereótipos de gênero
+                                e discriminação.
+                                </p>
+                            </div>
+                        </div>
+                        <p class="text-sm md:text-lg text-gray-600 py-3">
+                            Apesar dos desafios enfrentados pelas mulheres na tecnologia, é importante ressaltar que as mulheres têm 
+                            muito a oferecer à indústria de TI e em muitas outras áreas que são restringidas apenas para homens. A  
+                            participação delas é essencial para garantir uma tecnologia inclusiva
+                            e equilibrada. A sociedade deve tomar medidas concretas para apoiar as mulheres na tecnologia e para alcançar
+                            a igualdade de gênero na indústria.
+                        </p> 
+                    </div>
+                </div>
+            </section>
+ 
+            <footer class="bg-gray-50 border-t border-gray-200 px-4">
+                <div class="max-w-screen-xl mx-auto py-5 md:py-10">
+                    <div class="grid grid-cols-1 md:grid-cols-12 py-5 space-y-10 md:space-y-0 gap-40">
+                        <div class="md:col-span-4">
+                            <a href="" class="mb-5">
+                                <img src="../public/img/logoTransp.png" width="212" alt="logo">
+                            </a>
+                            <p class="text-gray-400 mt-5">
+                                Venha nos ajudar com essa missão.
+                                <br/>
+                                Mulher também pode. 
+                                <br/>
+                            </p>
+                        </div>
+                        <div class="md:col-span-2 flex flex-col space-y-2">
+                            <h5 class="text-indigo-600 font-bold mb-2">Blog</h5>
+                            <a href="#" class="text-gray-800">Todos os posts</a>
+                            <a href="#" class="text-gray-800">Sobre nós</a>
+                            <a href="#" class="text-gray-800">Contato</a>
+                            <a href="#" class="text-gray-800">Termos &amp; Condições</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        const navLinks = document.querySelector('.nav-links');
+        console.log(navLinks)
+        function onToggleMenu(e){
+            
+            if (e.name == "menu"){
+                e.name = "close"
+                navLinks.classList.add('top-[9%]')
+                navLinks.classList.remove('top-[-100%]')
+            } else {
+                e.name = "menu"
+                navLinks.classList.add('top-[-100%]')
+                navLinks.classList.remove('top-[9%]')
+            }
+  
+        };
+    </script>    
+</body>
+</html>

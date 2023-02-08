@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tech Girl Space</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family= Roboto & display = swap" rel="stylesheet">
+</head>
+<body class="h-screen">
+    <header class="bg-white">
+        <nav class="flex justify-between items-center w-[92%] mx-auto">
+            <div>
+                <img class="w-16 cursor-pointer" src="../public/img/logoTransp.png" alt="logo">
+            </div>
+            <div class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5">
+
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                    <li>
+                        <a class="hover:text-gray-500" href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="#">Quem Somos nós?</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="#">Oportunidades</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="#">Motivação</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-6">
+                <button class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Inscreva-se</button>
+                <ion-icon onclick="onToggleMenu(this)" name="menu-outline" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div id="secao-blog">
+            <section id="banner" class="bg-red-600 py-0 px-0">
+                <div class="flex h-[26rem] bg-inspiradoras bg-cover bg-center justify-center">
+                    <!--<img class="w-full" src="../public/img/image1.png" alt="Imagem Desafios da mulher em Tec"/> 
+                    
+                    <div class="py-32 ">
+                        <h2 class="text-2xl md:text-4xl text-white font-semibold">
+                            Desafios das mulheres da Tecnologia
+                        </h2>
+                    </div>
+                -->
+                </div>
+            </section>
+            <section class="px-5 py-10 md:py-10"> 
+                <div class="max-w-screen-xl mx-auto flex flex-col justify-items-center"> 
+                    <h1 class="text-2xl md:text-6xl text-gray-900 font-semibold self-center">
+                        Mulheres Inspiradoras
+                    </h1>
+                    <p class="text-xl text-gray-700 py-5 text-center">
+                        Dentro da área da tecnologia, as mulheres sentem muita dificuldade para se estabelecerem em uma área 
+                        extremamente masculinizada. Porém, muitas conseguiram quebrar as barreiras do machismo, 
+                        racismo e do preconceito e são reconhecidas até hoje pelo seus feitos à tecnologia.
+                        então veja, as mulheres inspiradoras na tecnologia.
+                    </p>
+                    <hr class="my-6 h-px border-0 w-1/2 self-center bg-gray-400">
+                    <div class="h-full flex flex-col items-center">
+                        <h1 class="text-5xl py-2 text-gray-900 font-semibold">Ada Lovelace</h1>
+                        <img src="../public/img/inspiradoras/Ada-Lovelace.png" 
+                        alt="" 
+                        class="w-1/3 py-4 rounded-3xl"/> 
+                        <p class="text-xs text-gray-600">Nascida em:</p>
+                    
+                        <figure class="max-w-screen-md mx-auto text-center">
+                            <!-- <svg aria-hidden="true" class="w-12 h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
+                            -->
+                            <blockquote>
+                                <p class="text-sm italic font-medium text-gray-600">"Quanto mais estudo, mais sinto que minha mente nisso é insaciável."</p>
+                            </blockquote>
+                        </figure>
+                        <div class="py-3"> 
+                            <p class="text-2xl md:text-lg text-center text-gray-600 py-3">
+                                Considerada mãe da computação, Ada King Lovelace idealizou o primeiro programa computacional. 
+                                EM meados do século XIX, ela analisou e traduziu diversos materiais dos matemáticos da época e,
+                                a partir disso, ajudou no desenvolvimento do primeiro algoritmo do mundo.
+                            </p> 
+                        </div>
+                    
+                        <hr class="my-6 h-px border-0 w-1/2 self-center bg-gray-400">
+                
+                        <h1 class="text-5xl py-2 text-gray-900 font-semibold">Carol Shaw</h1>
+                        <img src="../public/img/inspiradoras/Carol-Shaw.jpg" 
+                        alt="" 
+                        class="w-1/4 py-4 rounded-3xl"/> 
+                        <p class="text-xs text-gray-600">Nascida em:</p>
+                        <figure class="max-w-screen-md mx-auto py-2 text-center">
+                            <!-- <svg aria-hidden="true" class="w-12 h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
+                            -->
+                            <blockquote>
+                                <p class="text-sm italic font-medium text-center text-gray-600">"Quando eu estava no ensino fundamental e médio, 
+                                    eu era bom em matemática. Participei de vários concursos de matemática e ganhei prêmios. 
+                                    É claro que as pessoas diziam: 'Nossa, você é boa em matemática — para uma garota'. Isso era meio 
+                                    irritante. Por que as meninas não deveriam ser boas em matemática"</p>
+                            </blockquote>
+                        </figure>
+                    
+                        <div class="py-3"> 
+                            <p class="text-2xl md:text-lg text-gray-600 py-3">
+                                Considerada a primeira mulher desenvolvedora de jogos digitais. Responsável por criar softwares para
+                                jogos e consoles, ela é a idealizadora das “fases” dos jogos de videogame que vão gradualmente 
+                                aumentando a dificuldade. Ela também foi uma das primeiras colaboradoras da marca de consoles Atari
+                                e trabalhou em desenvolvedoras, como a Actvision.
+                            </p> 
+                        </div>
+                   
+                        <hr class="my-6 w-1/2 self-center h-px border-0 bg-gray-400">
+                  
+                        <h1 class="text-5xl py-2 text-gray-900 font-semibold">Katherine Johnson</h1>
+                        <img src="../public/img/inspiradoras/Katherine-Johnson.jpg" 
+                        alt="" 
+                        class="w-1/4 py-4 rounded-3xl"/> 
+                        <p class="text-xs text-gray-600">Nascida em:</p>
+                    
+                        <figure class="max-w-screen-md mx-auto py-2 text-center">
+                        <!-- <svg aria-hidden="true" class="w-12 h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
+                        -->
+                            <blockquote>
+                                <p class="text-sm italic font-medium text-gray-600">"As meninas são capazes de fazer tudo o que os 
+                                    homens são capazes de fazer. 
+                                    Às vezes, elas têm mais imaginação do que os homens."</p>
+                            </blockquote>
+                        </figure>
+           
+                        <div class="py-3"> 
+                            <p class="text-2xl md:text-lg text-center text-gray-800 py-3">
+                                Katherine Johnson foi a primeira mulher negra a entrar em um curso de pós-graduação na universidade 
+                                de West Virginia. Formada em matemática, trabalhou por anos na NACA (a atual NASA) e foi uma das 
+                                responsáveis pelos cálculos da trajetória de voo do foguete Apolo 11 para o primeiro pouso na lua.
+                            </p> 
+                        </div>
+                        <hr class="my-6 w-1/2 self-center h-px border-0 bg-gray-400">
+                  
+                        <h1 class="text-5xl py-2 text-gray-900 font-semibold">Grace Hopper</h1>
+                        <img src="../public/img/inspiradoras/Grace-Hopper.jpg" 
+                        alt="" 
+                        class="w-1/4 py-4 rounded-3xl"/> 
+                        <p class="text-xs text-gray-600">Nascida em:</p>
+                    
+                        <figure class="max-w-screen-md mx-auto py-2 text-center">
+                        <!-- <svg aria-hidden="true" class="w-12 h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
+                        -->
+                            <blockquote>
+                                <p class="text-sm italic font-medium text-gray-600">"Um navio no porto é seguro, mas não é para isso 
+                                    que os navios são construídos. 
+                                    Navegue para o mar e faça coisas novas"</p>
+                            </blockquote>
+                        </figure>
+           
+                        <div class="py-3"> 
+                            <p class="text-2xl md:text-lg text-center text-gray-800 py-3">
+                                Ela foi a primeira mulher a ter um PhD em Matemática na universidade de Yale, 
+                                trabalhou na área de tecnologia da marinha estadunidense e foi uma das criadoras da linguagem de 
+                                programação COBOL, uma das utilizadas nos bancos de dados do mundo dos negócios, auxiliou na criação 
+                                do primeiro computador comercializado para o público, chamado de UNIVAC e 
+                                criou o termo BUG quando descobriu um inseto (mariposa) preso no Mark II.
+                            </p> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+ 
+            <footer class="bg-gray-50 border-t border-gray-200 px-4">
+                <div class="max-w-screen-xl mx-auto py-5 md:py-10">
+                    <div class="grid grid-cols-1 md:grid-cols-12 py-5 space-y-10 md:space-y-0 gap-40">
+                        <div class="md:col-span-4">
+                            <a href="" class="mb-5">
+                                <img src="../public/img/logoTransp.png" width="212" alt="logo">
+                            </a>
+                            <p class="text-gray-400 mt-5">
+                                Venha nos ajudar com essa missão.
+                                <br/>
+                                Empodere a mulher.
+                                <br/>
+                            </p>
+                        </div>
+                        <div class="md:col-span-2 flex flex-col space-y-2">
+                            <h5 class="text-indigo-600 font-bold mb-2">Blog</h5>
+                            <a href="#" class="text-gray-800">Todos os posts</a>
+                            <a href="#" class="text-gray-800">Sobre nós</a>
+                            <a href="#" class="text-gray-800">Contato</a>
+                            <a href="#" class="text-gray-800">Termos &amp; Condições</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        const navLinks = document.querySelector('.nav-links');
+        console.log(navLinks)
+        function onToggleMenu(e){
+            
+            if (e.name == "menu"){
+                e.name = "close"
+                navLinks.classList.add('top-[9%]')
+                navLinks.classList.remove('top-[-100%]')
+            } else {
+                e.name = "menu"
+                navLinks.classList.add('top-[-100%]')
+                navLinks.classList.remove('top-[9%]')
+            }
+  
+        };
+    </script>    
+</body>
+</html>

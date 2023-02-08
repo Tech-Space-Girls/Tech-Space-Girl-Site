@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tech Girl Space</title>
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family= Roboto & display = swap" rel="stylesheet">
+</head>
+<body class="h-screen">
+    <header class="bg-white">
+        <nav class="flex justify-between items-center w-[92%] mx-auto ">
+            <div>
+                <img class="w-16 cursor-pointer" src="public/img/logoTransp.png" alt="logo">
+            </div>
+            <div class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                    <li>
+                        <a class="hover:text-gray-500" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="pages/sobre.html">Quem Somos nós?</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="pages/cursos_vagas.html">Oportunidades</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="pages/inspiradoras.html">Motivação</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-6">
+                <button class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Inscreva-se</button>
+                <ion-icon onclick="onToggleMenu(this)" name="menu-outline" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="secao-blog">
+            <section class="bg-gray-50 px-5 py-10 md:py-32">
+                <div class="max-w-screen-xl mx-auto">
+                    <div class="group cursor-pointer grid grid-cols-1 md:grid-cols-2 gap-y-3 gap-x-20 md:gap-y-0 items-center">
+                        <div>
+                            <div class="overflow-hidden rounded-lg drop-shadow-lg">
+                                <img class="duration-300 h-auto ease-in group-hover:scale-110 min-w-full" src="public/img/image1.png" alt="Imagem Desafios da mulher em Tech">
+                                <div class="absolute top-0 left-0 bottom-0 right-0 bg-gray-900 opacity-10 group-hover:opacity-60 duration-800 transition ease">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="pages/desafios.html" class="space-y-3 text-sm">
+                                <div class="flex items-center text-sm">
+                                    <div class="text-indigo-600">Tecnologia</div>
+                                    <div class="">&nbsp;&nbsp;</div>
+                                    <div class="">5 min read</div>
+                                </div>
+                                
+                                <h2 class="text-2xl md:text-4xl text-gray-900 font-semibold">
+                                    Desafio das mulheres dentro da Tecnologia
+                                </h2>
+                                <p class="text-sm md:text-lg text-gray-600">
+                                    Os desafios das mulheres na tecnologia é algo imenso, entretanto não torna impossível
+                                </p>
+                                <div class="text-lg text-gray-600 flex items-center space-x-2">
+                                    <div>Leia o artigo</div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="nonee" viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                    stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="max-w-screen-xl mx-auto px-5 py-10 md:py-20">
+                <h1 class="text-3xl font-medium text-gray-800 mb-10">
+                    Últimos posts
+                </h1>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10 gap-y-20">
+                    <div>
+                        <a href="pages/inspiradoras.html" class="group space-y-3">
+                            <div class="overflow-hidden rounded-lg drop-shadow-lg">
+                                <img src="/public/img/image2.png" alt="Imagem" class="duration-300 min-w-full ease-in group-hover:scale-110"/>
+                                <div class="absolute top-0 left-0 bottom-0 right-0 bg-gray-900 opacity-10 group-hover:opacity-60 duration-800 transition ease"></div>
+                            </div>
+                            <div class="flex items-center text-sm">
+                                <div class="text-indigo-600">Motivação</div>
+                                    <div>&nbsp;&nbsp;·&nbsp;&nbsp;</div>
+                                <div>5 minutos de leitura</div> 
+                            </div>
+                            <h2 class="text-2xl md:texxt-3xl text-gray-800 font-mdium">Mulheres Inspiradoras</h2>
+                            <p class="text-sm md:text-base text-gray-600">Dicta nihil ratione corrupti Aut dolorem</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="group space-y-3">
+                            <div class="overflow-hidden rounded-lg drop-shadow-lg">
+                                <img src="/public/img/image3.png" alt="Imagem" class="duration-300 min-w-full ease-in group-hover:scale-110"/>
+                                <div class="absolute top-0 left-0 bottom-0 right-0 bg-gray-900 opacity-10 group-hover:opacity-60 duration-800 transition ease"></div>
+                            </div>
+                            <div class="flex items-center text-sm">
+                                <div class="text-indigo-600">Oportunidades</div>
+                                    <div>&nbsp;&nbsp;·&nbsp;&nbsp;</div>
+                                <div>5 minutos de leitura</div> 
+                            </div>
+                            <h2 class="text-2xl md:texxt-3xl text-gray-800 font-mdium">Cursos & Vagas para mulheres em Tech</h2>
+                            <p class="text-sm md:text-base text-gray-600">Dicta nihil ratione corrupti Aut dolorem</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="group space-y-3">
+                            <div class="overflow-hidden rounded-lg drop-shadow-lg">
+                                <img src="/public/img/image4.png" alt="Imagem" class="duration-300 min-w-full ease-in group-hover:scale-110"/>
+                                <div class="absolute top-0 left-0 bottom-0 right-0 bg-gray-900 opacity-10 group-hover:opacity-60 duration-800 transition ease"></div>
+                            </div>
+                            <div class="flex items-center text-sm">
+                                <div class="text-indigo-600">Motivação</div>
+                                    <div>&nbsp;&nbsp;·&nbsp;&nbsp;</div>
+                                <div>5 minutos de leitura</div> 
+                            </div>
+                            <h2 class="text-2xl md:texxt-3xl text-gray-800 font-mdium">História da mulher na tecnologia</h2>
+                            <p class="text-sm md:text-base text-gray-600">Dicta nihil ratione corrupti Aut dolorem</p>
+                        </a>
+                    </div>
+                </div> 
+            </section>
+            <section class="relative bg-gray-800 py-20 drop-shadow-lg px-5 md:px-0">
+                <div class="max-w-screen-xl m-auto">
+                    <div class="text-center text-white space-y-10">
+                        <h2 class="text-2xl md:text-4xl font-bold">Email Semanal</h2>
+                        <p class="text-sm md:text-lg">Assine de graça nossa newsletter para receber emails semanais</p>
+                        <div class="email-sign-up padding-top w-form">
+                            <form action="" class="m-4 flex items-center justify-center">
+                                <input type="" class="shadow rounded-l-lg p-4 border-t mr-0 border-b border-l text-gray-200 bg-white"
+                                placeholder="seuemail@mail.com"/>
+                                <button class="shadow px-8 rounded-r-lg bg-gray-900 border-gray-900 text-white font-bold p-4 uppercase border-t border-b border">
+                                    Se inscreva
+                                </button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <footer class="bg-gray-50 border-t border-gray-200 px-4">
+                <div class="max-w-screen-xl mx-auto py-5 md:py-10">
+                    <div class="grid grid-cols-1 md:grid-cols-12 py-5 space-y-10 md:space-y-0">
+                        <div class="md:col-span-4">
+                            <a href="" class="mb-5">
+                                <img src="public/img/logoTransp.png" width="212" alt="logo">
+                            </a>
+                            <p class="text-gray-400 mt-5">
+                                Venha nos ajudar com nossa missão.
+                                <br/>
+                                Mulher também pode.
+                                <br/>
+                            </p>
+                        </div>
+                        <div class="md:col-span-2 flex flex-col space-y-2">
+                            <h5 class="text-indigo-600 font-bold mb-2">Blog</h5>
+                            <a href="#" class="text-gray-800">Todos os posts</a>
+                            <a href="#" class="text-gray-800">Sobre nós</a>
+                            <a href="#" class="text-gray-800">Termos &amp; Condições</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        const navLinks = document.querySelector('.nav-links');
+        console.log(navLinks)
+        function onToggleMenu(e){
+            
+            if (e.name == "menu"){
+                e.name = "close"
+                navLinks.classList.add('top-[9%]')
+                navLinks.classList.remove('top-[-100%]')
+            } else {
+                e.name = "menu"
+                navLinks.classList.add('top-[-100%]')
+                navLinks.classList.remove('top-[9%]')
+            } 
+        };
+    </script>    
+</body>
+</html>

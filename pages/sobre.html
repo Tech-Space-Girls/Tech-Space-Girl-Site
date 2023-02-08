@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tech Girl Space</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family= Roboto & display = swap" rel="stylesheet">
+    <script defer src="../public/scripts/show-on-scroll.js"></script>
+</head>
+<body class="h-screen">
+    <header class="bg-white">
+        <nav class="flex justify-between items-center w-[92%] mx-auto">
+            <div>
+                <img class="w-16 cursor-pointer" src="../public/img/logoTransp.png" alt="logo">
+            </div>
+            <div class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5">
+
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                    <li>
+                        <a class="hover:text-gray-500" href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="sobre.html">Quem Somos nós?</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="cursos_vagas.html">Oportunidades</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="inspiradoras.html">Motivação</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-6">
+                <button class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Inscreva-se</button>
+                <ion-icon onclick="onToggleMenu(this)" name="menu-outline" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="secao-curso">
+            <section id="banner" class="bg-white py-0 px-0">
+                <div class="flex h-[26rem] bg-sobre bg-cover bg-top justify-center js-show-on-scroll">
+                </div>
+            </section>
+            <section class="px-5 py-10 md:py-10">
+                <div class="max-w-screen-xl mx-auto">
+                    <h1 class="py-1 text-2xl md:text-7xl js-show-on-scroll text-center text-gray-900 font-semibold self-center mb-10">
+                            Quem somos nós? 
+                    </h1>
+                    <div class="py-6 flex flex-col items-center js-show-on-scroll">  
+                        <h1 class="text-3xl md:text-5xl text-gray-700 font-semibold mb-5">Sobre nosso grupo
+                        </h1>
+                        <div>
+                            <img class="py-4 px-8 h-56" src="../public/img/logoTransp.png" alt="logo">
+                        </div>
+                        <p class="text-sm text-center md:text-lg text-gray-600 py-3">
+                            O nosso grupo, composto apenas por mulheres, tem o objetivo de criar um site para incentivar e motivar a mulher dentro da careira de tecnologia, dando opções de cursos, vagas e parte para motivação, para assim, não desistir de seguir a área. Como fazemos parte do grupo minoritário, sabemos das dificuldades das mulheres em se estabelecer na área de tecnologia, se impor dentro do ambiente de trabalho e manter a persistência de continuar estudando. Por isso, estamos aqui para apoia-las e incentiva-las, tornando a tecnologia mais igualitária e diversificada.
+                        </p>
+                    </div>
+                    <div class="py-6 flex flex-col items-center js-show-on-scroll">
+                        <h1 class="text-4xl md:text-5xl text-gray-700 font-semibold mb-5 ml-2">ODS em Foco - 5 Igualdade de Gênero</h1>
+                        <a class="py-4" href="https://brasil.un.org/pt-br/sdgs/5">
+                            <img src="../public/img/ODS5-1.jpg" class="h-56 rounded-3xl" alt="ODS-5 Igualdade de Gênero">
+                        </a> 
+                        <p class="text-sm md:text-lg text-center text-gray-600 py-3">A ODS em foco do nosso projeto é a ODS-5 que visa a igualdade de gênero. Esta ODS tem como objetivo garantir o fim da discriminação contra mulheres e meninas em todos os lugares até 2030. Dar à mulher direitos iguais aos recursos econômicos, como terra e propriedade, são metas vitais para a realização desse objetivo assim como garantir o acesso universal à saúde sexual e reprodutiva.</p>
+                    </div>
+
+                    <div class="py-6 flex flex-col items-center js-show-on-scroll">
+                        <h1 class="text-4xl md:text-5xl text-gray-700 font-semibold mb-5">Sobre o Summer Code</h1>
+                        <div class="py-4">
+                            <img src="../public/img/Summer-Code.png" class="h-56 rounded-3xl" alt="logo Summer-Code">
+                        </div>
+                        <p class="text-sm md:text-lg text-center text-gray-600 py-3">O Summer Code Fundação Estudar é um programa para estudantes do Ensino Fundamental e Ensino Médio aprenderem a programar. A base teórica do programa é o CC50, versão em português do famoso curso de introdução a programação de Harvard, onde o aluno aprende C, Python, e Javascript. Além de conceitos de algoritmos, estruturas de dados, abstração, engenharia de software, encapsulamento, gerenciamento de recursos, segurança, engenharia de software e desenvolvimento web, além de dicas de como desenvolver e apresentar um projeto final.</p>
+                        
+                    </div>
+
+                    <div class="py-6 flex flex-col items-center js-show-on-scroll">
+                        <h1 class="text-4xl md:text-5xl text-gray-700 font-semibold mb-5">Monitores</h1>
+                        <div class="grid grid-cols-2 items-center justify-center gap-16">
+                            <div id="joao" class="flex flex-col items-center">
+                                <p class="text-lg text-center md:text-2xl text-gray-600 py-3">João Victor Barbosa</p>
+                                
+                                <div>
+                                    <img class="h-56 rounded-full" src="../public/img/icons/joao.jpeg" alt="foto do monitor joão V.">
+                                </div>
+                                <p class="text-sm text-center md:text-base text-gray-600 pt-3">Mídias Sociais:</p>
+                                <div id="redes-joao" class="py-3 flex flex-row">
+                                    <a class="px-3" href="https://github.com/joaovictorgb">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 98 96">
+                                            <path fill="#24292f" fill-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" clip-rule="evenodd"/>
+                                        </svg>
+                                    </a>
+                                    <a class="px-3" href="https://www.linkedin.com/in/joaovictorgb/" >
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 512 512" fill="#fff">
+                                            <rect width="512" height="512" fill="#0077b5" rx="15%"/>
+                                            <circle cx="142" cy="138" r="37"/>
+                                            <path stroke="#fff" stroke-width="66" d="M244 194v198M142 194v198"/>
+                                            <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32"/>
+                                        </svg> 
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="gabi" class="flex flex-col items-center">
+                                <p class="text-lg text-center md:text-2xl text-gray-600 py-3">Gabriele Patrício S. Basto</p>
+                                
+                                <div>
+                                    <img class="h-56 rounded-full" src="../public/img/icons/gabi.jpeg" alt="foto do monitor joão V.">
+                                </div>
+                                <p class="text-sm text-center md:text-base text-gray-600 pt-3">Mídias Sociais:</p>
+                                <div id="redes-gabi" class="py-3 flex flex-row">
+                                    <a class="px-3" href="https://github.com/Gabi-Bastos">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 98 96">
+                                            <path fill="#24292f" fill-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" clip-rule="evenodd"/>
+                                        </svg>
+                                    </a>
+                                    <a class="px-3" href="https://www.linkedin.com/in/gabriele-patricio-s-bastos-a66a9953/?originalSubdomain=br" class="px-5">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 512 512" fill="#fff">
+                                            <rect width="512" height="512" fill="#0077b5" rx="15%"/>
+                                            <circle cx="142" cy="138" r="37"/>
+                                            <path stroke="#fff" stroke-width="66" d="M244 194v198M142 194v198"/>
+                                            <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32"/>
+                                        </svg> 
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="py-6 flex flex-col items-center js-show-on-scroll">
+                        <h3 class="text-2xl md:text-3xl text-gray-700 font-semibold mb-5">Sobre a Fundação Estudar</h3>
+                        <div class="py-4">
+                            <img src="../public/img/estudar.png" class="h-56 rounded-3xl" alt="logo da Fundação Estudar">
+                        </div>
+                        <p class="text-sm md:text-lg text-center text-gray-600 py-3">
+                            Fundação Estudar é uma organização sem fins lucrativos brasileira de incentivo à educação, criada em 1991 pelos empresários Jorge Paulo Lemann, Marcel Telles e Beto Sicupira. A organização impulsiona jovens talentos brasileiros, por meio de iniciativas de acesso ao conhecimento de ponta com bolsas de estudo nas melhores universidades do mundo, cursos para desenvolvimento de carreira além de conteúdo digital gratuito. Uma rede que apoia, desenvolve e inspira milhões de jovens brasileiros para que sigam seus sonhos e mudem o mundo.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-gray-50 border-t border-gray-200 px-4">
+            <div class="max-w-screen-xl mx-auto py-5 md:py-10">
+                <div class="grid grid-cols-1 md:grid-cols-12 py-5 space-y-10 md:space-y-0 gap-40">
+                    <div class="md:col-span-4">
+                        <a href="" class="mb-5">
+                            <img src="../public/img/logoTransp.png" width="212" alt="logo">
+                        </a>
+                        <p class="text-gray-400 mt-5">
+                            Venha nos ajudar com essa missão.
+                            <br/>
+                            Empodere a mulher.
+                            <br/>
+                        </p>
+                    </div>
+                    <div class="md:col-span-2 flex flex-col space-y-2">
+                        <h5 class="text-indigo-600 font-bold mb-2">Blog</h5>
+                        <a href="#" class="text-gray-800">Todos os posts</a>
+                        <a href="#" class="text-gray-800">Sobre nós</a>
+                        <a href="#" class="text-gray-800">Contato</a>
+                        <a href="#" class="text-gray-800">Termos &amp; Condições</a>
+                    </div>
+                </div>
+            </div>
+            <div class="opacity-0 opacity-100"></div>
+        </footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script>
+    const navLinks = document.querySelector('.nav-links');
+    console.log(navLinks)
+    function onToggleMenu(e){
+        
+        if (e.name == "menu"){
+            e.name = "close"
+            navLinks.classList.add('top-[9%]')
+            navLinks.classList.remove('top-[-100%]')
+        } else {
+            e.name = "menu"
+            navLinks.classList.add('top-[-100%]')
+            navLinks.classList.remove('top-[9%]')
+        }
+
+    };
+</script>    
+</body>
+</html>

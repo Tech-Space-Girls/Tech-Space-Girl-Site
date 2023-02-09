@@ -6,8 +6,8 @@ $$
 \Huge
 \begin{aligned}
 & \text{Esta é a versão final do nosso projeto do Summer Code do CC50 Fundação Estudar.} \\
-& \text{O nosso intuito é criar um ambiente para que as garotas que estão ingressando na carreira de Tecnologia} \\
-& \text{Melhores acomadadas, e mais motivadas}
+& \text{O nosso intuito é criar um ambiente para que as garotas que estão ingressando } \\
+& \text{na carreira de Tecnologia, melhores acomadadas, e mais motivadas}
 \end{aligned}
 $$
 

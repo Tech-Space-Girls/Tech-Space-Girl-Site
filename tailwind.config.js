@@ -11,10 +11,10 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: {
-                "desafios": "url('Tech-Space-Girl-Site/public/img/desafios.png')",
-                "inspiradoras": "url('Tech-Space-Girl-Site/public/img/inspiradoras.png')",
-                "cursosVagas": "url('Tech-Space-Girl-Site/public/img/cursos/cursos_vagas.jpg')",
-                "sobre": "url('Tech-Space-Girl-Site/public/img/sobre.png')"
+                "desafios": "url('../public/img/desafios.png')",
+                "inspiradoras": "url('../public/img/inspiradoras.png')",
+                "cursosVagas": "url('../public/img/cursos/cursos_vagas.jpg')",
+                "sobre": "url('../public/img/sobre.png')"
             },
             animation: {
                 fadeIn: "fadeIn 2s ease-in forwards"

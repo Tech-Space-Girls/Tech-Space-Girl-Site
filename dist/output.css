@@ -1008,19 +1008,19 @@ video {
 }
 
 .bg-cursosVagas {
-  background-image: url('Tech-Space-Girl-Site/public/img/cursos/cursos_vagas.jpg');
+  background-image: url('../public/img/cursos/cursos_vagas.jpg');
 }
 
 .bg-desafios {
-  background-image: url('Tech-Space-Girl-Site/public/img/desafios.png');
+  background-image: url('../public/img/desafios.png');
 }
 
 .bg-inspiradoras {
-  background-image: url('Tech-Space-Girl-Site/public/img/inspiradoras.png');
+  background-image: url('../public/img/inspiradoras.png');
 }
 
 .bg-sobre {
-  background-image: url('Tech-Space-Girl-Site/public/img/sobre.png');
+  background-image: url('../public/img/sobre.png');
 }
 
 .bg-cover {
